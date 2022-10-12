@@ -1,0 +1,11 @@
+h4{
+    margin-top:0px;
+    margin-bottom: 10px;
+}
+.total{
+    font-size: 2em;
+}
+.desc,mat-icon{
+ color:green;
+ font-size: 20px;
+}

@@ -1,0 +1,14 @@
+<div>
+    <h4>{{label}}</h4>
+
+    <span class="total">{{total}}</span>
+    <span> 
+        <mat-icon color="primary">trending_up</mat-icon>
+    </span>
+    <span class="desc">{{percentage}}  %</span>
+    <span> of target</span>
+    </div>
+<div>
+    <highcharts-chart [Highcharts]="Highcharts" [options]="chartOptions"
+ style="width: 90%; height: 80px; display: block;"></highcharts-chart>
+</div>
